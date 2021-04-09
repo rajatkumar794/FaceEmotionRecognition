@@ -4,7 +4,7 @@ from camera import VideoCamera
 
 app = Flask(__name__)
 
-@app.route('./templates/')
+@app.route('./')
 def index():
     return render_template('index.html')
 
